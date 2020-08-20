@@ -19,6 +19,7 @@
 .close{
     display:flex;
     align-items:center;
+    padding-right: 0.5rem;
 }
 .right_section{
     display:flex;
