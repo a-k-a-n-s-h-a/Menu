@@ -19,7 +19,6 @@
 .close{
     display:flex;
     align-items:center;
-    padding-right: 0.5rem;
 }
 .right_section{
     display:flex;
@@ -41,16 +40,15 @@
     padding: 1rem 0rem;
     font-weight: bold;
 }
-.heading{
-padding-bottom:0.7rem;
-}
+
 .dropdown-content {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 0.7rem;
 }
 .dropdown-content a {
     text-decoration:none;
-    color:#000;
+    color:#2f2f2f;
     font-weight:lighter;
     padding: 0.2rem 0rem;
     width:50%;
@@ -88,3 +86,9 @@ padding-bottom:0.7rem;
 .social_icon a svg{
     fill: black;
 }
+.heading {
+    padding-bottom: 0.5rem;
+    color: #313131;
+    border-bottom: 1px solid #e0e0e0;
+}
+
