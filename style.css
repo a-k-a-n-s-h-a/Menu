@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* --------------------HEADER----------------- */
+
+.bar{
+        padding: 1rem;
+        max-width: 350px;
+}
+.top{
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+}
+.close{
+    display:flex;
+    align-items:center;
+}
+.right_section{
+    display:flex;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ----------BODY----------- */
+
+.content{
+    padding-top:1rem;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.navigation_link{
+    padding: 1rem 0rem;
+    font-weight: bold;
+}
+.heading{
+padding-bottom:0.7rem;
+}
+.dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dropdown-content a {
+    text-decoration:none;
+    color:#000;
+    font-weight:lighter;
+    padding: 0.2rem 0rem;
+    width:50%;
+}
+
+/* -----------FOOTER-------- */
+
+.follow_us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+    padding-bottom: 2rem;
+}
+.menu-bottom{
+    width: 60%;
+}
+.social_menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_icons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.social_icon a{
+    margin: 0;
+    display: flex;
+}
+.social_icon:hover{
+    transform: scale(1.1);
+}
+.social_icon a svg{
+    fill: black;
+}
